@@ -418,6 +418,7 @@ body {
   position: relative;
   z-index: 11; }
 
+
 @media (max-width: 56.25em) {
   .components {
     height: 110 vh;
@@ -483,9 +484,6 @@ body {
 .component__span {
   font-size: 1.6rem;
   color: rgba(128, 128, 128, 0.904); }
-
-.main {
-  transform: skewY(7deg); }
 
 .main__card {
   margin: 5rem;

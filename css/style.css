@@ -148,11 +148,14 @@ body {
 
 .discover__btn:link,
 .discover__btn:visited {
-  background-color: rgba(0, 128, 0, 0.604);
+  background-color: rgba(0, 53, 128, 0.604);
   color: aliceblue;
   position: absolute;
   bottom: 18rem;
-  right: 56rem;
+  width:19rem;
+  text-align: center;
+  display: inline-block;
+  right: calc(50vw - 9.5rem);
   -webkit-animation-name: none;
   animation-name: none; }
 
@@ -210,6 +213,7 @@ body {
 
 .bbttnn {
   color: blue; }
+
 
 .header {
   height: 95vh;
@@ -486,6 +490,13 @@ body {
 
 .main {
   transform: skewY(7deg); }
+.main{
+  display: flex;
+  justify-content:center;
+}
+.components > p{
+  transform: skewY(7deg);
+}
 
 .main__card {
   margin: 5rem;
@@ -1271,21 +1282,25 @@ video {
 .price__btn {
   margin-left: 7rem; }
 
+.centercontainer{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
 .row {
   margin-top: 10rem;
-  width: 20rem;
-  float: left;
-  margin-left: 20rem; }
-
+  }
 @media (max-width: 56.25em) {
   .row {
     width: 30rem;
-    margin-left: 2rem; } }
+    } }
 
 @media (max-width: 75em) {
   .row {
     width: 29rem;
-    margin-left: 2rem; } }
+    } }
 
 .main-section {
   position: relative; }
