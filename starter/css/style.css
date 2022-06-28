@@ -213,7 +213,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.678), rgba(255, 255, 255, 0.747)), url(../../picture-1.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.678), rgba(255, 255, 255, 0.747)), url("../picture-1.jpg");
   background-size: contain;
   background-position: top;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
@@ -410,7 +410,7 @@ body {
 
 .components {
   height: 97vh;
-  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.678), rgba(255, 255, 255, 0.747)), url(../../picture-6.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.678), rgba(255, 255, 255, 0.747)), url("../picture-6.jpg");
   background-size: cover;
   background-position: top;
   transform: skewY(-7deg);
