@@ -821,14 +821,14 @@ body {
   margin-top: 2rem; }
 
 .sc {
-  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.444), rgba(255, 255, 255, 0.869)), url("../../bb.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.444), rgba(255, 255, 255, 0.869)), url("../bb.jpg");
   background-size: cover; }
 
 .h {
   color: white; }
 
 .sidee__front--img {
-  background-image: linear-gradient(to right, blue, white), url("../../ges.png"); }
+  background-image: linear-gradient(to right, blue, white), url("../ges.png"); }
 
 .video-rel {
   padding-bottom: 10rem; }
